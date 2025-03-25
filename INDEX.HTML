@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .centro {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 500%;  /* A imagem não ultrapassa a largura da tela */
+            height: 100%;     /* Mantém a proporção da imagem */
+        }
+    </style>
+ <style>
+        body {
+            position: relative;
+            height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
+            margin: 0;
+        }
+
+        .botao-posicionado {
+            position: absolute;
+            top: 80.50%;  /* 50% da altura do contêiner */
+            left: 29%; /* 50% da largura do contêiner */
+            transform: translate(-50%, -50%); /* Ajusta a posição para centralizar o botão */
+            padding: 20px 60px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .botao-posicionado:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://i.ibb.co/xq5Cv9qs/Inqu-rito-cirac-imagem-de-fundo-max.jpg" alt="Imagem Exemplo" class="centro">
+    <button class="botao-posicionado" onclick="window.location.href='https://forms.gle/P9grpAjtzr8XnsPUA';">Clique Aqui</button>
+</body>
+</html>
